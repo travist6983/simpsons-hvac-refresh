@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Thermometer, Flame, Wind, Drop, Shield, Clock } from 'lucide-react';
+import { Thermometer, Flame, Wind, Droplet, Shield, Clock } from 'lucide-react';
 import { Button } from './ui/button';
 
 const services = [
@@ -26,7 +26,7 @@ const services = [
     id: 4,
     title: 'Indoor Air Quality Solutions',
     description: 'Breathe easier with our air purifiers, humidifiers, and ventilation services for healthier indoor air.',
-    icon: <Drop className="service-icon h-10 w-10 text-hvac-blue transition-all duration-300" />,
+    icon: <Droplet className="service-icon h-10 w-10 text-hvac-blue transition-all duration-300" />,
   },
   {
     id: 5,
